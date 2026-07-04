@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bookstore</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+ 
+  <!-- Custom CSS -->
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Bootstrap Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark py-3">
+    <div class="container-fluid">
+      <!-- Logo Image -->
+      <a class="navbar-brand" href="index.html">
+        <img src="logobook.png" alt="Wonder Reads Logo" class="navbar-logo">
+      </a>
+      <!-- Toggler Button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Navbar Links -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="fiction.html">Fiction</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="fairy-tales.html">Fairy Tales</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="non-fiction.html">Non-Fiction</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="academic.html">Academic</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="lifestyle-hobby.html">Lifestyle and Hobby</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid bg-light py-5">
+    <div class="row align-items-center">
+      <!-- Left Image -->
+      <div class="col-md-3 text-center order-md-1 order-2">
+        <img src="book2.jpg" alt="Book Cover 1" class="img-thumbnail hero-image">
+      </div>
+  
+      <!-- Hero Content -->
+      <div class="col-md-6 text-center order-md-2 order-1">
+        <h1 class="book-title">Fairy Tales</h1>
+        <h2 class="book-name">A Bond of Ice and Sunshine</h2>
+        <p class="book-author">by Sarah Meran</p>
+        <p class="book-description">
+          A Bond of Ice and Sunshine is a charming fairy tale about the unlikely friendship between a frost fairy from the Winter Realm and a sun sprite from the Summer Lands. Despite their contrasting natures, they join forces to restore balance to their worlds when a powerful curse threatens to plunge both realms into endless darkness. This heartwarming story celebrates unity, courage, and the magic of embracing differences.
+        </p>
+        <p class="book-price">$10.99</p>
+        <button type="button" class="btn btn-primary btn-lg">Place Order</button>
+        <button type="button" class="btn btn-secondary btn-lg">Save for Read</button>
+        <button type="button" class="btn btn-outline-success btn-lg">Add to Wishlist</button>
+      </div>
+  
+      <!-- Right Image -->
+      <div class="col-md-3 text-center order-md-3 order-3">
+        <img src="book3.jpg" alt="Book Cover 2" class="img-fluid hero-image">
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <h2 class="text-center mb-4">About the Author</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-8 col-lg-6 text-center">
+        <div class="card author-card p-4">
+          <img src="author.jpg" alt="Author Image" class="img-fluid rounded-circle author-image mb-3">
+          <h3 class="author-name">Sarah Beran</h3>
+          <p class="author-bio">
+            Sarah Beran is an American author known for her clean, cozy fantasy and fairy tale retellings. She works as an elementary music teacher and has published fourteen books, including The Silent Night and To Crack a Soldier. Her stories are appreciated for their relatable characters and wholesome content.
+          </p>
+          <div class="author-social-links">
+            <a href="#" class="btn btn-outline-primary btn-sm">Twitter</a>
+            <a href="#" class="btn btn-outline-primary btn-sm">Facebook</a>
+            <a href="#" class="btn btn-outline-primary btn-sm">Instagram</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Related Books Section -->
+<div class="container mt-5">
+  <h2 class="text-center mb-4">Related Books</h2>
+  <div class="row">
+    <!-- Book 1 -->
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <div class="image-container">
+          <img src="book7.jpg" alt="Related Book 1" class="card-img-top img-thumbnail related-book-image" height="300px">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">The Silent Night</h5>
+          <p class="card-text">A heartwarming tale of love and redemption set in a snowy village during Christmas.</p>
+          <p class="text-muted">by Sarah Beran</p>
+          <p class="text-success">$12.99</p>
+          <button type="button" class="btn btn-outline-success btn-sm">Add to Wishlist</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Book 2 -->
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <div class="image-container">
+          <img src="book5.jpg" alt="Related Book 2" class="card-img-top img-thumbnail related-book-image">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">My Fair Mermaid</h5>
+          <p class="card-text">A whimsical story of a mermaid who dreams of becoming a human to experience life on land.</p>
+          <p class="text-muted">by Emily Waters</p>
+          <p class="text-success">$14.99</p>
+          <button type="button" class="btn btn-outline-success btn-sm">Add to Wishlist</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Book 3 -->
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <div class="image-container">
+          <img src="book6.jpg" alt="Related Book 3" class="card-img-top img-thumbnail related-book-image">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Princess of the Beans</h5>
+          <p class="card-text">A magical retelling of the classic fairy tale with a modern twist.</p>
+          <p class="text-muted">by Lily Harper</p>
+          <p class="text-success">$11.99</p>
+          <button type="button" class="btn btn-outline-success btn-sm">Add to Wishlist</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+ <!-- Tables Section -->
+<div class="container mt-5">
+  <h2 class="text-center mb-4">Fairy Tale Books Details</h2>
+  <div class="row d-flex flex-wrap">
+    <!-- Table 1: Hardcover Fairy Tale Books -->
+    <div class="col-12 col-md-4 mb-4 d-flex flex-column">
+      <h3 class="text-center mb-3"><b>Types of Book Modes</b></h3>
+      <table class="table table-hover table-custom-1 flex-grow-1">
+        <thead class="table-primary">
+          <tr>
+            <th>Mode</th>
+            <th>Book</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="table-light">
+            <td>HardCover</td>
+            <td>A Bond of Ice and Sunshine</td>
+            <td>$25.99</td>
+          </tr>
+          <tr class="table-light">
+            <td>Paperback</td>
+            <td>My Fair Mermaid</td>
+            <td>$22.99</td>
+          </tr>
+          <tr class="table-light">
+            <td>E-Book</td>
+            <td>Princess of the Beans</td>
+            <td>$24.99</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Table 2: Paperback Fairy Tale Books -->
+    <div class="col-12 col-md-4 mb-4 d-flex flex-column">
+      <h3 class="text-center mb-3"><b>Awards</b></h3>
+      <table class="table table-striped table-hover table-custom-2 flex-grow-1">
+        <thead class="table-success">
+          <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Year</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>A Bond of Ice and Sunshine</td>
+            <td>Sarah Meran</td>
+            <td>2023</td>
+          </tr>
+          <tr>
+            <td>My Fair Mermaid</td>
+            <td>Emily Waters</td>
+            <td>2021</td>
+          </tr>
+          <tr>
+            <td>Princess of the Beans</td>
+            <td>Lily Harper</td>
+            <td>2019</td>
+          </tr>
+          <tr>
+            <td>The Silent Night</td>
+            <td>Sarah Beran</td>
+            <td>2018</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Table 3: Ebook Fairy Tale Books -->
+    <div class="col-12 col-md-4 mb-4 d-flex flex-column">
+      <h3 class="text-center mb-3"><b>Special Offers</b></h3>
+      <table class="table table-warning table-hover table-custom-3 flex-grow-1">
+        <thead class="table-warning">
+          <tr>
+            <th>Title</th>
+            <th>Price</th>
+            <th>Discount</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>A Bond of Ice and Sunshine</td>
+            <td>$9.99</td>
+            <td>25% discount until 31/03/2025</td>
+          </tr>
+          <tr>
+            <td>My Fair Mermaid</td>
+            <td>$9.99</td>
+            <td>15% discount until 31/03/2025</td>
+          </tr>
+          <tr>
+            <td>Princess of the Beans</td>
+            <td>$15.99</td>
+            <td>50% discount until 6/04/2025</td>
+          </tr>
+          <tr>
+            <td>The Silent Night</td>
+            <td>$9.99</td>
+            <td>25% discount until 10/04/2025</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+  <!-- Customer Reviews Section -->
+  <div class="container mt-5">
+    <h2 class="text-center mb-4">Customer Reviews</h2>
+    <div class="row">
+      <!-- Review 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <div class="d-flex align-items-center mb-3">
+              <img src="human3.jpg" alt="User 1" class="rounded-circle me-3" width="50" height="50">
+              <div>
+                <h5 class="card-title mb-0">Alice Noara</h5>
+                <small class="text-muted">Reviewed on January 15, 2025</small>
+              </div>
+            </div>
+            <p class="card-text">"The customer service at WordHive is fantastic! They helped me choose the perfect gift for my niece. The book arrived in perfect condition."</p>
+            <div class="text-warning"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Review 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <div class="d-flex align-items-center mb-3">
+              <img src="boy.jpg" alt="User 2" class="rounded-circle me-3" width="50" height="50">
+              <div>
+                <h5 class="card-title mb-0">Bob Smith</h5>
+                <small class="text-muted">Reviewed on February 10, 2025</small>
+              </div>
+            </div>
+            <p class="card-text">"WordHive Bookstore has an amazing collection of books! I found exactly what I was looking for, and the delivery was super fast. Highly recommended!"</p>
+            <div class="text-warning"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Review 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <div class="d-flex align-items-center mb-3">
+              <img src="human2.jpg" alt="User 3" class="rounded-circle me-3" width="50" height="50">
+              <div>
+                <h5 class="card-title mb-0">Silly Morva</h5>
+                <small class="text-muted">Reviewed on March 5, 2025</small>
+              </div>
+            </div>
+            <p class="card-text">"I loved the vivid descriptions and the thrilling journey. The book kept me on the edge of my seat from start to finish."</p>
+            <div class="text-warning"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    <p>&copy; 2023 Word Hive. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

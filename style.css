@@ -1,0 +1,263 @@
+/*body part under hero section*/
+body {
+  background-color:#95b9ddae; /* Light blue background */
+  font-family: 'Georgia', serif;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #061321;
+  padding: 20px 0;
+}
+
+.navbar-brand, .nav-link {
+  color: #ffffff;
+}
+
+.navbar-logo {
+  height: 75px;
+  width: auto;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  margin: 0 10px;
+  transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #2373c8;
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+  border-radius: 5px;
+}
+
+.nav-link.active {
+  color: #2373c8;
+  font-weight: bold;
+}
+/* Hero Section Styling */
+.bg-light {
+  background-color:#061321cd  !important; 
+  color: #ffffff; 
+  padding: 80px 0; 
+}
+.book-title {
+  font-size: 2.0rem; 
+  color: #ffffff; 
+  margin-bottom: 20px; 
+  line-height: 1.2; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  font-weight: bold;
+}
+.book-name {
+  font-size: 1.8rem; 
+  font-weight: 1000; 
+  color: #ffffff; 
+  margin-bottom: 15px;
+  line-height: 1.3;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.book-author {
+  font-size: 1.5rem; 
+  font-weight: 500; 
+  margin-bottom: 20px;
+  font-style: italic; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: #2373c8;
+  margin-top: 10px; 
+}
+
+.book-description {
+  font-size: 1.2rem; 
+  color: #ffffff; 
+  margin-top: 20px;
+  line-height: 1.6; 
+  max-width: 800px;
+  margin-left: auto; 
+  margin-right: auto; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.book-price {
+  font-size: 1.5rem; 
+  font-weight: bold;
+  margin-bottom: 30px; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 1.8rem;
+  color: #28a745;
+  margin-top: 20px;
+}
+.img-thumbnail {
+  border: 4px solid #ddd;
+  padding: 4px; 
+  border-radius: 10px; 
+}
+.img-fluid {
+  max-width: 100%; 
+  height: auto; 
+}
+
+/* Custom Button Styles */
+.btn-primary {
+  background-color: #2373c8;
+  border-color: #007bff;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn {
+  font-size: 1.1rem;
+  padding: 10px 20px;
+  margin: 5px;
+}
+/* Custom CSS for Hero Section Images */
+.hero-image {
+  max-height: 250px;
+  width: auto; 
+  border: 5px solid #ffffff; 
+  border-radius: 15px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease; /* Smooth transitions */
+}
+
+/* Hover effect for hero images */
+.hero-image:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); 
+  border-color: #02264d; 
+}
+
+/* Add a glow effect on hover */
+.hero-image:hover {
+  filter: brightness(1.1); 
+}
+
+/* Author Image Style */
+.author-image {
+  width: 150px;
+  height: 150px; 
+  border: 4px solid #484545; 
+  box-shadow: 0 4px 8px rgba(241, 240, 240, 0.2); 
+}
+/* Center Author Section */
+.author-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.author-name {
+  text-align: center; 
+}
+
+.author-bio {
+  text-align: center;
+}
+
+.author-social-links {
+  text-align: center;
+}
+
+/* Transparent Card Hover Effect for Author Section */
+.author-card {
+  background-color: rgba(192, 203, 219, 0.305);
+  border: none; 
+  border-radius: 15px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  transition: background-color 0.3s ease; 
+}
+
+.author-card:hover {
+  background-color: rgba(255, 255, 255, 0.7); /* More transparent on hover */
+}
+/* Related Books Section Styles */
+.related-books .card {
+  border: none;
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 20px; 
+  height: 100%; 
+}
+
+.related-books .card:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.related-books .image-container {
+  height: 150px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.related-books .related-book-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.related-books .card-body {
+  padding: 15px; 
+  text-align: center;
+}
+
+.related-books .card-title {
+  font-size: 1.1rem; 
+}
+
+.related-books .card-text {
+  font-size: 0.9rem; 
+}
+
+.related-books .btn-outline-success {
+  width: 100%;
+  margin-top: 10px
+}
+/* Light Table Styles */
+.table {
+  background-color: #100b36; 
+  border-radius: 10px; 
+  overflow: hidden; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+.table thead th {
+  border-bottom: 2px solid #5d3939; 
+}
+.table tbody td {
+  color: #080538; 
+  border-bottom: 1px solid #021033; 
+}
+.table-bordered {
+  border: 1px solid #ab4444; 
+}
+
+/* Custom Table Styling for Light Theme */
+.table-custom-1 thead th {
+  background-color: #c2e0f5; 
+}
+.table-custom-2 thead th {
+  background-color: #cfe9f7; 
+  color: #000000;
+}
+.table-custom-3 thead th {
+  background-color: #f9d5d8; 
+  color: #333; 
+}
+.table-responsive {
+  overflow-x: auto;
+}
+
+
