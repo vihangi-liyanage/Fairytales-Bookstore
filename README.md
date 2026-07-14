@@ -64,5 +64,3 @@ This project helps demonstrate:
 ## Academic Context
 This website is a simple yet effective example of frontend development for the Emerging Technology Frameworks module, showing how modern web interfaces can be built using foundational web technologies.
 
-## Author
-Student Project for Emerging Technology Frameworks
